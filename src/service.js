@@ -1,4 +1,4 @@
 export async function loadMapList() {
-  const maps = await import('./maps.json')
+  const maps = await (await fetch('/maps.json')).json()
   return maps.map
 }
