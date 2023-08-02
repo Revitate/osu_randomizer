@@ -21,3 +21,7 @@
   margin-top: 72px;
   font-size: 14px;
 }
+
+.ant-checkbox-wrapper {
+  color: white !important;
+}
